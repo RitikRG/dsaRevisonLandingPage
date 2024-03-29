@@ -1,0 +1,20 @@
+:root{
+    --primaryGreen:rgb(101 197 28);
+    --secondaryGreen: rgb(21 41 10);
+    --secondaryGray: rgb(245 245 244);
+}
+*{
+    transition: all 0.2s ease-in-out;
+}
+
+
+.navLinksContainer{
+    background-color: var(--secondaryGray);
+}
+
+.navBtn{
+    background-color: var(--secondaryGreen);
+}
+.navBtn:hover{
+    background-color: var(--primaryGreen);
+}
